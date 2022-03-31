@@ -1,6 +1,6 @@
 # Application for filtering and sorting Partners from a list
 
-This app uses predefined Geo point to filter the list of partners read from a file. Only the entries which are in the specified range will be in the invitation list. Also, the list is sorted by Partner ID.
+This app uses predefined Geo point to filter the list of partners read from a file. Only the entries which are in the specified range will be on the invitation list. Also, the list is sorted by Partner ID.
 
 
 ## Start
@@ -14,7 +14,7 @@ To start the program run:
 ```
 npm run start
 ```
-For developing use the command below which will daemonize the process and auto-reload it if code is changed.
+For development use the command below which will daemonize the process and auto-reload it if the code is changed.
 ```
 npm run start:dev
 ```
@@ -33,7 +33,7 @@ To start the tests without invoking the build command use:
 npm run test:execute
 ```
 
-For starting the projec linter(`tslint`) use the command:
+For starting the project linter(`tslint`) use the command:
 ```
 npm run lint
 ```
